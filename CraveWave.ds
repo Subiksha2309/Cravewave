@@ -1,0 +1,2705 @@
+/*
+ * Author       : subiksha767
+ * Generated on : 25-Jun-2024 13:59:42
+ * Version      : 1.0
+ */
+ application "CraveWave"
+ {
+ 	date format = "dd-MMM-yyyy"
+ 	time zone = "Asia/Kolkata"
+ 	time format = "24-hr"
+ 	section Dashboard
+	{
+		icon = "emoticons-quite-happy"
+		page Restaurant_Dashboard
+		{
+			displayname = "Restaurant Dashboard"
+			icon = "food-barbecue-15"
+			Content="<zml    \t\t\n\t\t\n\t\t\tbgColor='#EFFFFD'\n\t\t\n\t\t\twebDeviceConfig='{\"layout\":{\"displayType\":\"card\",\"design\":\"fluid\",\"style\":\"padding-right:0px;padding-top:0px;padding-bottom:0px;padding-left:0px;\"}}'\n\t\t\n\t\t\n>\n\t<layout>\n\t<row>\n\t<column\n   \t\t width=\"34%\"\n   \t>\n\t<panel elementName=\"Panel 1\"\n \n >\n\t<pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpadding = '0px'\n\tbgColor = '#FAA0D9'\n\n\t\twidth = '100%'\n\t\thAlign = 'center'\n\t\tvAlign = 'middle'\n>\n\t<pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpaddingTop = '0px'\n\tpaddingLeft = '17px'\n\tpaddingRight = '17px'\n\tpaddingBottom = '17px'\n\tbgColor = '#FFFFFF'\n\n\t\twidth = '50%'\n\t\thAlign = 'center'\n\t\tvAlign = 'middle'\n>\n\t<pr \n\t\t\twidth='auto'\n\t\theight='auto'\n>\n\t<pc \n\t\tbgColor = '#FFFFFF'\n\n\t\thAlign = 'center'\n>\n\t<pr \n\t>\n\t<pc \n\t\n>\n\t<text \n\n\tcolor = '#000000'\n\tsize = '16px'\n\tbold = 'true' \n\titalic = 'true' \n\ttype = 'Text'\n\tbgColor = '#FFFFFF'\n\n\n\n\t  \n\t  value = 'Welcome Dear\u2764\uFE0F'\n>\n<\/text>\n\n<\/pc>\n<\/pr><pr \n\t>\n\t<pc \n\t\n>\n\t<text \n\n\tcolor = '#000000'\n\tsize = '16px'\n\titalic = 'true' \n\ttype = 'Text'\n\tbgColor = 'rgba(0, 0, 0, 0)'\n\n\n\n\t  \n\t  value = 'Time to treat your taste buds\uD83E\uDD29'\n>\n<\/text>\n\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr>\n<\/pc><pc \n\t\tpaddingTop = '17px'\n\tpaddingLeft = '17px'\n\tpaddingRight = '0px'\n\tpaddingBottom = '17px'\n\tbgtype = 'gallery'\n\tbgColor = '#FFFFFF'\n\tbgImageRepeat = 'no-repeat'\n\tbgImagePosition = 'fit'\n\tbgHorizontalAlign = 'center'\n\tbgVerticalAlign = 'center'\n\tbgImage = 'fd.jpg'\n\n\t\twidth = '50%'\n\t\thAlign = 'center'\n\t\tvAlign = 'middle'\n>\n\t<pr \n\t\t\twidth='auto'\n\t\theight='auto'\n>\n\t<pc \n\t\n>\n\t\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr>\n<\/panel>\n<\/column><column\n   \t\t width=\"66%\"\n   \t>\n\t<search \n\telementName=\"Search\"\n\tpaddingTop = '40px'\n\tpaddingLeft = '80px'\n\tpaddingRight = '80px'\n\tpaddingBottom = '40px'\n\tbgtype = 'gallery'\n\tbgColor = '#000000'\n\tbgImageRepeat = 'no-repeat'\n\tbgImagePosition = 'fill'\n\tbgHorizontalAlign = 'center'\n\tbgVerticalAlign = 'center'\n\toverlayColor = '#00000000'\n\tbgImage = 'image_3.jpg'\n\n\tshape = 'rounded'\n\tresultComponent = 'report'\n\tlinkName = 'All_Menu_Management'\n\ttarget = 'new-window'\n\tcriteriaString = 'Item_Name.first_name.startsWith(input.searchString) || Item_Name.last_name.endsWith(input.searchString)'\n\tfontFamily = 'arimo, sans-serif'\n\tappLinkName = 'thisapp'\n\tstyle = '4'\n\tplaceholder = 'Enter value'\n\n>\n<searchbar color=\"#000000\" bgColor=\"#ffffff\" fontSize=\"15px\"\n\/><searchbutton color=\"#ffffff\" bgColor=\"#c04ce8\" \nfontSize=\"15px\"  \/><\/search>\n<\/column>\n<\/row><row>\n\t<column\n   \t\t width=\"36%\"\n   \t>\n\t<embed \n\telementName=\"Embed\"\n\n\thAlign = 'center'\n\turl = 'https:\/\/media.istockphoto.com\/id\/1829240600\/photo\/having-brunch.webp?b=1&amp;s=170667a&amp;w=0&amp;k=20&amp;c=B3TWAg0HdBRRC0NKEl10pQjy-Hdr4BS_KKnklzP-yaU='\n\twidth = '300'\n\theight = '300'\n\/>\n\n<\/column><column\n   \t\t width=\"35%\"\n   \t>\n\t<panel elementName=\"Panel 9\"\n \n >\n\t<pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpadding = '20px'\n\tbgColor = '#FFFFFF'\n\n\t\twidth = '100%'\n\t\thAlign = 'center'\n\t\tvAlign = 'middle'\n>\n\t<pr \n\t\t\twidth='auto'\n\t\theight='auto'\n>\n\t<pc \n\t\tpadding = '5px'\n\n>\n\t<pr \n\t>\n\t<pc \n\t\n>\n\t<image  \n\t\n\tcolor = '#FFFFFF'\n\tbgColor = '#0ABB51'\n\twidth = '80px'\n\theight = '80px'\n\ttype = 'gallery'\n\tvalue = 'waffle.jpg'\n\tcornerRadius = '40px'\n\/>\n<\/pc>\n<\/pr><pr \n\t>\n\t<pc \n\t\n>\n\t<text \n\n\tmarginTop = '3px'\n\tcolor = '#F3482C'\n\tsize = '20px'\n\tbold = 'true' \n\ttype = 'Text'\n\tbgColor = 'rgba(0, 0, 0, 0)'\n\n\n\n\t  \n\t  value = 'High Rating Item'\n>\n<\/text>\n\n<\/pc>\n<\/pr><pr \n\t>\n\t<pc \n\t\n>\n\t<text \n\n\tmarginTop = '3px'\n\tcolor = '#F3482C'\n\tsize = '16px'\n\ttype = 'Text'\n\tbgColor = 'rgba(0, 0, 0, 0)'\n\n\n\n\t  \n\t  value = 'Chocolate Waffle'\n>\n<\/text>\n\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr>\n<\/panel>\n<\/column><column\n   \t\t width=\"29%\"\n   \t>\n\t<panel elementName=\"Panel 8\"\n \n >\n\t<pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpadding = '20px'\n\tbgColor = '#FFFFFF'\n\n\t\twidth = '100%'\n\t\tvAlign = 'middle'\n>\n\t<pr \n\t\t\twidth='auto'\n\t\theight='auto'\n>\n\t<pc \n\t\n>\n\t<button \n\t\tmarginLeft = '0px'\n\tmarginRight = '0px' \n\tmarginBottom = '0px'\n\tmarginTop = '0px'\n\n    action = 'OpenReport'\n\t\tcomponentLinkName = 'Sales_Analyse'\n\t\ttarget = 'new-window'\n\tcolor = '#FFFFFF'\n\tsize = '16px'\n\ttext ='Sales Analyse'\n\t\ttype = 'flat'\n\t\tbgColor = '#C462EA'\n\t\tcornerRadius = '3px' \n\/>\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr>\n<\/panel>\n<\/column>\n<\/row><row>\n\t<column\n   \t\t width=\"53%\"\n   \t>\n\t<panel elementName=\"Panel\"\n \n >\n\t<pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tbgColor = '#FFFFFF'\n\n\t\twidth = '100%'\n\t\thAlign = 'center'\n\t\tvAlign = 'middle'\n>\n\t<pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpadding = '20px'\n\n\t\twidth = '100%'\n>\n\t<pr \n\t\t\twidth='auto'\n\t\theight='auto'\n>\n\t<pc \n\t\n>\n\t<image  \n\t\tmarginRight = '7px' \n\n\tcolor = '#FFFFFF'\n\tbgColor = '#2A70E7'\n\twidth = '80px'\n\theight = '80px'\n\ttype = 'gallery'\n\tvalue = 'burger.jpg'\n\tcornerRadius = '40px'\n\/>\n<\/pc><pc \n\t\tpadding = '5px'\n\n\t\thAlign = 'left'\n>\n\t<pr \n\t>\n\t<pc \n\t\n\t\thAlign = 'left'\n>\n\t<text \n\n\tcolor = '#F3482C'\n\tsize = '20px'\n\ttype = 'Text'\n\tbgColor = '#FFFFFF'\n\n\n\n\t  \n\t  value = 'Most Ordered Item'\n>\n<\/text>\n\n<\/pc>\n<\/pr><pr \n\t>\n\t<pc \n\t\n\t\thAlign = 'left'\n>\n\t<text \n\n\tmarginTop = '2px'\n\tcolor = '#F3482C'\n\tsize = '16px'\n\tbold = 'true' \n\ttype = 'Text'\n\tbgColor = 'rgba(0, 0, 0, 0)'\n\n\n\n\t  \n\t  value = 'Chicken Burger'\n>\n<\/text>\n\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr><pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpaddingTop = '0px'\n\tpaddingLeft = '17px'\n\tpaddingRight = '17px'\n\tpaddingBottom = '17px'\n\tbgColor = 'transparent'\n\n\t\twidth = '100%'\n\t\thAlign = 'center'\n>\n\t<pr \n\t\t\twidth='auto'\n\t\theight='auto'\n>\n\t<pc \n\t\n>\n\t<text \n\n\tcolor = '#FF614E'\n\tsize = '20px'\n\tbold = 'true' \n\ttype = 'Text'\n\tbgColor = 'rgba(0, 0, 0, 0)'\n\n\n\n\t  \n\t  value = 'Price : 165'\n>\n<\/text>\n\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr>\n<\/panel>\n<\/column><column\n   \t\t width=\"47%\"\n   \t>\n\t<panel elementName=\"Panel 3\"\n \n >\n\t<pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpadding = '0px'\n\tbgColor = '#FFFFFF'\n\n\t\twidth = '100%'\n\t\thAlign = 'center'\n>\n\t<pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpadding = '17px'\n\tbgColor = 'transparent'\n\n\t\twidth = '41%'\n\t\thAlign = 'center'\n>\n\t<pr \n\t\t\twidth='auto'\n\t\theight='auto'\n>\n\t<pc \n\t\n>\n\t<image  \n\t\n\tcolor = '#2D2D2D'\n\twidth = '80px'\n\theight = '80px'\n\ttype = 'gallery'\n\tvalue = 'butter_naan.jpg'\n\tcornerRadius = '40px'\n\/>\n<\/pc>\n<\/pr>\n<\/pc><pc \n\t\tpaddingTop = '17px'\n\tpaddingLeft = '0px'\n\tpaddingRight = '17px'\n\tpaddingBottom = '17px'\n\tbgColor = 'rgba(0, 0, 0, 0)'\n\n\t\twidth = '59%'\n\t\thAlign = 'left'\n\t\tvAlign = 'middle'\n>\n\t<pr \n\t\t\twidth='auto'\n\t\theight='auto'\n>\n\t<pc \n\t\n>\n\t<pr \n\t>\n\t<pc \n\t\n>\n\t<text \n\n\tcolor = '#FF614E'\n\tsize = '20px'\n\ttype = 'Text'\n\tbgColor = 'rgba(0, 0, 0, 0)'\n\n\n\n\t  \n\t  value = 'Least Ordered Item'\n>\n<\/text>\n\n<\/pc>\n<\/pr><pr \n\t>\n\t<pc \n\t\n>\n\t<text \n\n\tcolor = '#FF7163'\n\tsize = '16px'\n\ttype = 'Text'\n\tbgColor = 'rgba(0, 0, 0, 0)'\n\n\n\n\t  \n\t  value = 'Butter Naan'\n>\n<\/text>\n\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr><pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpaddingTop = '17px'\n\tpaddingLeft = '0px'\n\tpaddingRight = '17px'\n\tpaddingBottom = '17px'\n\tbgColor = 'transparent'\n\n\t\twidth = '100%'\n\t\thAlign = 'center'\n>\n\t<pr \n\t\t\twidth='auto'\n\t\theight='auto'\n>\n\t<pc \n\t\n>\n\t<text \n\n\tcolor = '#FF7163'\n\tsize = '20px'\n\tbold = 'true' \n\ttype = 'Text'\n\tbgColor = 'rgba(0, 0, 0, 0)'\n\n\n\n\t  \n\t  value = 'Price : 50'\n>\n<\/text>\n\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr>\n<\/panel>\n<\/column>\n<\/row><row>\n\t<column\n   \t\t width=\"100%\"\n   \t>\n\t<panel elementName=\"Panel 2\"\n \n >\n\t<pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpadding = '0px'\n\tbgColor = '#FFFFFF'\n\n\t\twidth = '100%'\n\t\thAlign = 'center'\n\t\tvAlign = 'middle'\n>\n\t<pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpaddingTop = '17px'\n\tpaddingLeft = '17px'\n\tpaddingRight = '0px'\n\tpaddingBottom = '17px'\n\tbgColor = 'transparent'\n\n\t\twidth = '100%'\n\t\thAlign = 'center'\n>\n\t<pr \n\t\t\twidth='auto'\n\t\theight='auto'\n>\n\t<pc \n\t\n>\n\t<text \n\n\tcolor = '#000000'\n\tsize = '24px'\n\ttype = 'Text'\n\tbgColor = 'rgba(0, 0, 0, 0)'\n\n\n\n\t  \n\t  value = 'Trending Orders'\n>\n<\/text>\n\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr><pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpadding = '0px'\n\tbgColor = 'transparent'\n\n\t\twidth = '19%'\n\t\thAlign = 'center'\n>\n\t<pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpadding = '17px'\n\n\t\twidth = '100%'\n>\n\t<pr \n\t\t\twidth='auto'\n\t\theight='auto'\n>\n\t<pc \n\t\n>\n\t<image  \n\t\n\tcolor = '#2D2D2D'\n\twidth = '80px'\n\theight = '80px'\n\ttype = 'gallery'\n\tvalue = 'lava_cake.jpg'\n\tcornerRadius = '10px'\n\/>\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr><pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpaddingTop = '0px'\n\tpaddingLeft = '17px'\n\tpaddingRight = '17px'\n\tpaddingBottom = '17px'\n\tbgColor = 'transparent'\n\n\t\twidth = '100%'\n\t\thAlign = 'center'\n>\n\t<pr \n\t\t\twidth='auto'\n\t\theight='auto'\n>\n\t<pc \n\t\n>\n\t<text \n\n\tcolor = '#000000'\n\tsize = '15px'\n\ttype = 'Text'\n\tbgColor = 'rgba(0, 0, 0, 0)'\n\n\n\n\t  \n\t  value = 'Chocolate Lava Cake'\n>\n<\/text>\n\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr><pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpaddingTop = '0px'\n\tpaddingLeft = '17px'\n\tpaddingRight = '17px'\n\tpaddingBottom = '17px'\n\tbgColor = 'transparent'\n\n\t\twidth = '100%'\n\t\thAlign = 'center'\n>\n\t<pr \n\t\t\twidth='auto'\n\t\theight='auto'\n>\n\t<pc \n\t\n>\n\t<text \n\n\tcolor = '#000000'\n\tsize = '16px'\n\ttype = 'Text'\n\tbgColor = 'rgba(0, 0, 0, 0)'\n\n\n\n\t  \n\t  value = 'Price : 110'\n>\n<\/text>\n\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr>\n<\/pc><pc \n\t\tpadding = '0px'\n\tbgColor = 'transparent'\n\n\t\twidth = '21%'\n\t\thAlign = 'center'\n>\n\t<pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpadding = '17px'\n\n\t\twidth = '100%'\n>\n\t<pr \n\t\t\twidth='auto'\n\t\theight='auto'\n>\n\t<pc \n\t\n>\n\t<image  \n\t\n\tcolor = '#2D2D2D'\n\twidth = '80px'\n\theight = '80px'\n\ttype = 'gallery'\n\tvalue = 'apple_pie.jpg'\n\tcornerRadius = '10px'\n\/>\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr><pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpaddingTop = '0px'\n\tpaddingLeft = '17px'\n\tpaddingRight = '17px'\n\tpaddingBottom = '17px'\n\tbgColor = 'transparent'\n\n\t\twidth = '100%'\n\t\thAlign = 'center'\n>\n\t<pr \n\t\t\twidth='auto'\n\t\theight='auto'\n>\n\t<pc \n\t\n>\n\t<text \n\n\tcolor = '#000000'\n\tsize = '16px'\n\ttype = 'Text'\n\tbgColor = 'rgba(0, 0, 0, 0)'\n\n\n\n\t  \n\t  value = 'Apple Pie'\n>\n<\/text>\n\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr><pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpaddingTop = '0px'\n\tpaddingLeft = '17px'\n\tpaddingRight = '17px'\n\tpaddingBottom = '17px'\n\tbgColor = 'transparent'\n\n\t\twidth = '100%'\n\t\thAlign = 'center'\n>\n\t<pr \n\t\t\twidth='auto'\n\t\theight='auto'\n>\n\t<pc \n\t\n>\n\t<text \n\n\tcolor = '#000000'\n\tsize = '16px'\n\ttype = 'Text'\n\tbgColor = 'rgba(0, 0, 0, 0)'\n\n\n\n\t  \n\t  value = 'Price : 120'\n>\n<\/text>\n\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr>\n<\/pc><pc \n\t\tpadding = '0px'\n\tbgColor = 'transparent'\n\n\t\twidth = '19%'\n\t\thAlign = 'center'\n>\n\t<pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpadding = '17px'\n\n\t\twidth = '100%'\n>\n\t<pr \n\t\t\twidth='auto'\n\t\theight='auto'\n>\n\t<pc \n\t\n>\n\t<image  \n\t\n\tcolor = '#2D2D2D'\n\twidth = '80px'\n\theight = '80px'\n\ttype = 'gallery'\n\tvalue = 'burger_1.jpg'\n\tcornerRadius = '10px'\n\/>\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr><pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpaddingTop = '0px'\n\tpaddingLeft = '17px'\n\tpaddingRight = '17px'\n\tpaddingBottom = '17px'\n\tbgColor = 'transparent'\n\n\t\twidth = '100%'\n\t\thAlign = 'center'\n>\n\t<pr \n\t\t\twidth='auto'\n\t\theight='auto'\n>\n\t<pc \n\t\n>\n\t<text \n\n\tcolor = '#000000'\n\tsize = '16px'\n\ttype = 'Text'\n\tbgColor = 'rgba(0, 0, 0, 0)'\n\n\n\n\t  \n\t  value = 'Chicken Burger'\n>\n<\/text>\n\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr><pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpaddingTop = '0px'\n\tpaddingLeft = '17px'\n\tpaddingRight = '17px'\n\tpaddingBottom = '17px'\n\tbgColor = 'transparent'\n\n\t\twidth = '100%'\n\t\thAlign = 'center'\n>\n\t<pr \n\t\t\twidth='auto'\n\t\theight='auto'\n>\n\t<pc \n\t\n>\n\t<text \n\n\tcolor = '#000000'\n\tsize = '16px'\n\ttype = 'Text'\n\tbgColor = 'rgba(0, 0, 0, 0)'\n\n\n\n\t  \n\t  value = 'Price : 165'\n>\n<\/text>\n\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr>\n<\/pc><pc \n\t\tpadding = '0px'\n\tbgColor = 'transparent'\n\n\t\twidth = '21%'\n\t\thAlign = 'center'\n>\n\t<pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpadding = '17px'\n\n\t\twidth = '100%'\n>\n\t<pr \n\t\t\twidth='auto'\n\t\theight='auto'\n>\n\t<pc \n\t\n>\n\t<image  \n\t\n\tcolor = '#2D2D2D'\n\twidth = '80px'\n\theight = '80px'\n\ttype = 'gallery'\n\tvalue = 'cho_mou.jpg'\n\tcornerRadius = '10px'\n\/>\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr><pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpaddingTop = '0px'\n\tpaddingLeft = '17px'\n\tpaddingRight = '17px'\n\tpaddingBottom = '17px'\n\tbgColor = 'transparent'\n\n\t\twidth = '100%'\n\t\thAlign = 'center'\n>\n\t<pr \n\t\t\twidth='auto'\n\t\theight='auto'\n>\n\t<pc \n\t\n>\n\t<text \n\n\tcolor = '#000000'\n\tsize = '16px'\n\ttype = 'Text'\n\tbgColor = 'rgba(0, 0, 0, 0)'\n\n\n\n\t  \n\t  value = 'Chocolate Mousse'\n>\n<\/text>\n\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr><pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpaddingTop = '0px'\n\tpaddingLeft = '17px'\n\tpaddingRight = '17px'\n\tpaddingBottom = '17px'\n\tbgColor = 'transparent'\n\n\t\twidth = '100%'\n\t\thAlign = 'center'\n>\n\t<pr \n\t\t\twidth='auto'\n\t\theight='auto'\n>\n\t<pc \n\t\n>\n\t<text \n\n\tcolor = '#000000'\n\tsize = '16px'\n\ttype = 'Text'\n\tbgColor = 'rgba(0, 0, 0, 0)'\n\n\n\n\t  \n\t  value = 'Price : 155'\n>\n<\/text>\n\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr>\n<\/pc><pc \n\t\tpadding = '0px'\n\tbgColor = 'transparent'\n\n\t\twidth = '20%'\n\t\thAlign = 'center'\n>\n\t<pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpadding = '17px'\n\n\t\twidth = '100%'\n>\n\t<pr \n\t\t\twidth='auto'\n\t\theight='auto'\n>\n\t<pc \n\t\n>\n\t<image  \n\t\tmarginLeft = '10px'\n\tmarginBottom = '0px'\n\tmarginTop = '0px'\n\n\tcolor = '#2D2D2D'\n\twidth = '80px'\n\theight = '80px'\n\ttype = 'gallery'\n\tvalue = 'momo.jpg'\n\tcornerRadius = '10px'\n\/>\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr><pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpaddingTop = '0px'\n\tpaddingLeft = '17px'\n\tpaddingRight = '17px'\n\tpaddingBottom = '17px'\n\tbgColor = 'transparent'\n\n\t\twidth = '100%'\n\t\thAlign = 'center'\n>\n\t<pr \n\t\t\twidth='auto'\n\t\theight='auto'\n>\n\t<pc \n\t\n>\n\t<text \n\n\tmarginLeft = '10px'\n\tmarginBottom = '0px'\n\tmarginTop = '0px'\n\tcolor = '#000000'\n\tsize = '16px'\n\ttype = 'Text'\n\tbgColor = 'rgba(0, 0, 0, 0)'\n\n\n\n\t  \n\t  value = 'Momos'\n>\n<\/text>\n\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr><pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpaddingTop = '0px'\n\tpaddingLeft = '17px'\n\tpaddingRight = '17px'\n\tpaddingBottom = '17px'\n\tbgColor = 'transparent'\n\n\t\twidth = '100%'\n\t\thAlign = 'center'\n>\n\t<pr \n\t\t\twidth='auto'\n\t\theight='auto'\n>\n\t<pc \n\t\n>\n\t<text \n\n\tcolor = '#000000'\n\tsize = '16px'\n\ttype = 'Text'\n\tbgColor = 'rgba(0, 0, 0, 0)'\n\n\n\n\t  \n\t  value = 'Price : 220'\n>\n<\/text>\n\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr><pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpadding = '17px'\n\tbgColor = 'transparent'\n\n\t\twidth = '100%'\n\t\thAlign = 'center'\n>\n\t<pr \n\t\t\twidth='auto'\n\t\theight='auto'\n>\n\t<pc \n\t\n>\n\t<button \n\t\tmarginLeft = '0px'\n\tmarginRight = '0px' \n\tmarginBottom = '0px'\n\tmarginTop = '0px'\n\n    action = 'OpenURL'\n\t\turl = 'https:\/\/creatorapp.zoho.in\/subiksha767\/environment\/development\/crave-wave\/#Report:All_Menu_Management' \n\t\ttarget = 'new-window'\n\tcolor = '#FFFFFF'\n\tsize = '16px'\n\ttext ='View Details'\n\t\ttype = 'rounded'\n\t\tbgColor = '#C462EA'\n\t\tcornerRadius = '45.6px' \n\/>\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr>\n<\/panel>\n<\/column>\n<\/row><row>\n\t<column\n   \t\t width=\"32%\"\n   \t>\n\t<panel elementName=\"Panel 6\"\n \n >\n\t<pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpadding = '20px'\n\tbgColor = '#FFFFFF'\n\n\t\twidth = '100%'\n\t\tvAlign = 'middle'\n>\n\t<pr \n\t\t\twidth='auto'\n\t\theight='auto'\n>\n\t<pc \n\t\n\t\tvAlign = 'middle'\n>\n\t<button \n\t\tmarginLeft = '0px'\n\tmarginRight = '0px' \n\tmarginBottom = '0px'\n\tmarginTop = '0px'\n\n    action = 'OpenForm'\n\t\tcomponentLinkName = 'Customer_Order'\n\t\ttarget = 'new-window'\n\tcolor = '#FFFFFF'\n\tsize = '16px'\n\ttext ='Order Placement'\n\t\ttype = 'rounded'\n\t\tbgColor = '#C462EA'\n\t\tcornerRadius = '45.6px' \n\/>\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr>\n<\/panel>\n<\/column><column\n   \t\t width=\"36%\"\n   \t>\n\t<panel elementName=\"Panel 5\"\n \n >\n\t<pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpadding = '20px'\n\tbgColor = '#FFFFFF'\n\n\t\twidth = '100%'\n\t\tvAlign = 'middle'\n>\n\t<pr \n\t\t\twidth='auto'\n\t\theight='auto'\n>\n\t<pc \n\t\n\t\tvAlign = 'middle'\n>\n\t<button \n\t\tmarginLeft = '0px'\n\tmarginRight = '0px' \n\tmarginBottom = '0px'\n\tmarginTop = '0px'\n\n    action = 'OpenForm'\n\t\tparameters = 'Go to Menu Management form' \n\t\tcomponentLinkName = 'Menu_Management'\n\t\ttarget = 'new-window'\n\tcolor = '#FFFFFF'\n\tsize = '16px'\n\ttext ='Menu Update'\n\t\ttype = 'rounded'\n\t\tbgColor = '#C462EA'\n\t\tcornerRadius = '45.6px' \n\/>\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr>\n<\/panel>\n<\/column><column\n   \t\t width=\"32%\"\n   \t>\n\t<panel elementName=\"Panel 7\"\n \n >\n\t<pr \n\t\t\twidth='fill'\n\t\theight='fill'\n>\n\t<pc \n\t\tpadding = '20px'\n\tbgColor = '#FFFFFF'\n\n\t\twidth = '100%'\n\t\tvAlign = 'middle'\n>\n\t<pr \n\t\t\twidth='auto'\n\t\theight='auto'\n>\n\t<pc \n\t\n\t\tvAlign = 'middle'\n>\n\t<button \n\t\tmarginLeft = '0px'\n\tmarginRight = '0px' \n\tmarginBottom = '0px'\n\tmarginTop = '0px'\n\n    action = 'OpenForm'\n\t\tparameters = 'Go to Driver Registration Form' \n\t\tcomponentLinkName = 'Driver_Registration'\n\t\ttarget = 'new-window'\n\tcolor = '#FFFFFF'\n\tsize = '16px'\n\ttext ='Driver Registration'\n\t\ttype = 'rounded'\n\t\tbgColor = '#C462EA'\n\t\tcornerRadius = '45.6px' \n\/>\n<\/pc>\n<\/pr>\n<\/pc>\n<\/pr>\n<\/panel>\n<\/column>\n<\/row>\n<\/layout>\n<\/zml>"
+		}
+	}
+	section Restaurant_Registrations
+	{
+		displayname= "Restaurant Registrations"
+		icon = "food-barbecue-15"
+		form Restaurant_Registration
+		{
+			displayname = "Restaurant Registration"
+			success message = "Restaurant Registration Added Successfully"
+			field alignment = left
+			Section
+			(
+				type = section
+	 			row = 1
+	 			column = 0   
+				width = medium
+			)
+			must have Restaurant_Name
+			(
+    			type = text
+				displayname = "Restaurant Name"
+	 			row = 1
+	 			column = 1   
+				width = medium
+			)
+			must have Owner_Name
+			(
+    			type = name
+				displayname = "Owner Name"
+     			prefix
+     			(
+	     			 type = prefix
+	     			 displayname ="Prefix"
+	     			 visibility = false
+	     			 value = {"Mr.","Mrs.","Ms."}
+     			) 
+     			first_name
+     			(
+	     			 type = first_name
+	     			 displayname ="First Name"
+     			) 
+     			last_name
+     			(
+	     			 type = last_name
+	     			 displayname ="Last Name"
+     			) 
+     			suffix
+     			(
+	     			 type = suffix
+	     			 displayname ="Suffix"
+	     			 visibility = false
+     			) 
+	 			row = 1
+	 			column = 1   
+				width = medium
+				personal data = true
+			)
+			must have Restaurant_Email
+			(
+    			type = email
+				displayname = "Restaurant Email"
+				maxchar = 80
+	 			row = 1
+	 			column = 1   
+				width = medium
+				personal data = true
+			)
+			must have Phone
+			(
+    			type = phonenumber
+	 			row = 1
+	 			column = 1   
+				width = medium
+				personal data = true
+			)
+			must have Location
+			(
+    			type = address
+     			capture_coordinates = true
+     			adjust_using_map = true
+     			address_line_1
+     			(
+	     			  type = address_line_1
+	     			  displayname = "Address Line 1"
+     			) 
+     			address_line_2
+     			(
+	     			  type = address_line_2
+	     			  displayname = "Address Line 2"
+     			) 
+     			district_city
+     			(
+	     			  type = district_city
+	     			  displayname = "City / District"
+     			) 
+     			state_province
+     			(
+	     			  type = state_province
+	     			  displayname = "State / Province"
+     			) 
+     			postal_Code
+     			(
+	     			  type = postal_Code
+	     			  displayname = "Postal Code"
+     			) 
+     			country
+     			(
+	     			  type = country
+	     			  displayname = "Country"
+	     			 visibility = false
+     			) 
+     			latitude
+     			(
+	     			  type = latitude
+	     			  displayname = "latitude"
+	     			 visibility = false
+     			) 
+     			longitude
+     			(
+	     			  type = longitude
+	     			  displayname = "longitude"
+	     			 visibility = false
+     			) 
+	 			row = 1
+	 			column = 1   
+				width = medium
+				personal data = true
+			)
+			must have Opening_Hours
+			(
+    			type = time
+				displayname = "Opening Time"
+				initial value = "10:00:00"	
+				timedisplayoptions = "hh:mm" 
+				allowedhours = 10:00-22:00
+	 			row = 1
+	 			column = 1   
+				width = medium
+			)
+	
+			customize
+			(
+				icon = "food-barbecue-15"
+			)
+			actions
+			{
+				on add
+				{
+					submit
+					(
+   						type = submit
+   						displayname = "Submit"
+					)
+					reset
+					(
+   						type = reset
+   						displayname = "Reset"
+					)
+				}
+				on edit
+				{
+					update
+					(
+   						type = submit
+   						displayname = "Update"
+					)
+					cancel
+					(
+   						type = cancel
+   						displayname = "Cancel"
+					)
+				}
+			}
+		}
+		default list All_Restaurant_Registrations
+		{
+			displayName = "All Restaurant Registrations"
+			show all rows from Restaurant_Registration    
+			(
+				Restaurant_Name as "Restaurant Name"
+				Owner_Name  as "Owner Name"
+	 			(
+	      			displayformat = [first_name+""+last_name]
+	 			)
+				Restaurant_Email as "Restaurant Email"
+				Phone
+				(
+					displayformat = plainnumber 
+					linktodial = enable
+				)
+				Location 
+	 			(
+	      			displayformat = [address_line_1+""+address_line_2+""+district_city+""+state_province+""+postal_Code]
+	      			enable = Link_to_Map,Show_As_Text
+	 			)
+				Opening_Hours as "Opening Time"
+			)
+			options
+			(
+				icon = "travel-world"
+	 		)
+			quickview
+			(
+				layout
+				(
+		 			type = -1
+					datablock1
+					(
+						layout type = -1
+						fields
+						(
+							Restaurant_Name as "Restaurant Name"
+							Owner_Name as "Owner Name"
+							Restaurant_Email as "Restaurant Email"
+							Phone
+							Location
+							Opening_Hours as "Opening Time"
+						)
+					)
+				)
+				menu
+    			(
+    	 			header
+    	 			(
+    		 			Edit 
+    		 			Duplicate 
+    		 			Delete 
+    	 			)
+					record
+					(
+						Edit   	   
+						Duplicate   	   
+						Delete   	   
+    				)
+    			)
+    			action
+    			(
+					on click
+					(
+						View Record   	   
+    				)
+					on right click
+					(
+						Edit   	   
+						Delete   	   
+						Duplicate   	   
+						View Record   	   
+    				)
+     			)
+			)
+			detailview
+			(
+				layout
+				(
+		 			type = 1
+					datablock1
+					(
+						layout type = -2
+						fields
+						(
+							Restaurant_Name as "Restaurant Name"
+							Owner_Name as "Owner Name"
+							Restaurant_Email as "Restaurant Email"
+							Phone
+							Location
+							Opening_Hours as "Opening Time"
+						)
+					)
+				)
+				menu
+    			(
+    	 			header
+    	 			(
+    		 			Edit 
+    		 			Duplicate 
+    		 			Delete 
+    	 			)
+    			)
+			)
+		}
+		form Menu_Management
+		{
+			displayname = "Menu Management"
+			success message = "Menu Management Added Successfully"
+			field alignment = left
+			Section
+			(
+				type = section
+	 			row = 1
+	 			column = 0   
+				width = medium
+			)
+			must have Item_Name
+			(
+    			type = name
+				displayname = "Item Name"
+     			prefix
+     			(
+	     			 type = prefix
+	     			 displayname ="Prefix"
+	     			 visibility = false
+	     			 value = {"Mr.","Mrs.","Ms."}
+     			) 
+     			first_name
+     			(
+	     			 type = first_name
+	     			 displayname ="First Name"
+     			) 
+     			last_name
+     			(
+	     			 type = last_name
+	     			 displayname ="Last Name"
+     			) 
+     			suffix
+     			(
+	     			 type = suffix
+	     			 displayname ="Suffix"
+	     			 visibility = false
+     			) 
+	 			row = 1
+	 			column = 1   
+				width = medium
+				personal data = true
+			)
+			Item_Image
+			(
+    			type = image
+				displayname = "Item Image"
+				source  = file
+				aspect ratio = original
+				camera = primary
+				show gallery = true
+				switch camera = true
+	 			row = 1
+	 			column = 1   
+				width = medium
+			)
+			Description
+			(
+    			type = textarea
+				height = 100px
+	 			row = 1
+	 			column = 1   
+				width = medium
+			)
+			must have Price
+			(
+				type = number
+	 			row = 1
+	 			column = 1   
+				width = medium
+			)
+			must have Available_Quantity
+			(
+				type = number
+				displayname = "Available Quantity"
+	 			row = 1
+	 			column = 1   
+				width = medium
+			)
+			Available_Status
+			(
+				type = picklist
+				displayname = "Available Status"
+				maxchar = 100
+				values = {"Available","Not Available"}
+	 			row = 1
+	 			column = 1   
+				width = medium
+			)
+	
+			customize
+			(
+				icon = "food-microwave"
+			)
+			actions
+			{
+				on add
+				{
+					submit
+					(
+   						type = submit
+   						displayname = "Submit"
+					)
+					reset
+					(
+   						type = reset
+   						displayname = "Reset"
+					)
+				}
+				on edit
+				{
+					update
+					(
+   						type = submit
+   						displayname = "Update"
+					)
+					cancel
+					(
+   						type = cancel
+   						displayname = "Cancel"
+					)
+				}
+			}
+		}
+		default list All_Menu_Management
+		{
+			displayName = "All Menu Management"
+			show all rows from Menu_Management    
+			(
+				Price
+				Available_Quantity as "Available Quantity"
+				(
+					display = total	
+				)
+				Available_Status as "Available Status"
+				Item_Image as "Item Image"
+				Description
+				Item_Name  as "Item Name"
+	 			(
+	      			displayformat = [first_name+""+last_name]
+	 			)
+			)
+			options
+			(
+				icon = "travel-world"
+	 		)
+			quickview
+			(
+				layout
+				(
+		 			type = -1
+					datablock1
+					(
+						layout type = -1
+						fields
+						(
+							Item_Image as "Item Image"
+							Item_Name as "Item Name"
+							Price
+							Description
+							Available_Quantity as "Available Quantity"
+							Available_Status as "Available Status"
+						)
+					)
+				)
+				menu
+    			(
+    	 			header
+    	 			(
+    		 			Edit 
+    		 			Duplicate 
+    		 			Delete 
+    	 			)
+					record
+					(
+						Edit   	   
+						Duplicate   	   
+						Delete   	   
+    				)
+    			)
+    			action
+    			(
+					on click
+					(
+						View Record   	   
+    				)
+					on right click
+					(
+						Edit   	   
+						Delete   	   
+						Duplicate   	   
+						View Record   	   
+    				)
+     			)
+			)
+			detailview
+			(
+				layout
+				(
+		 			type = 1
+					datablock1
+					(
+						layout type = -2
+						fields
+						(
+							Item_Image as "Item Image"
+							Item_Name as "Item Name"
+							Price
+							Description
+							Available_Quantity as "Available Quantity"
+							Available_Status as "Available Status"
+						)
+					)
+				)
+				menu
+    			(
+    	 			header
+    	 			(
+    		 			Edit 
+    		 			Duplicate 
+    		 			Delete 
+    	 			)
+    			)
+			)
+		}
+	}
+	section Sales_Tracking
+	{
+		displayname= "Sales Tracking"
+		icon = "shopping-delivery-track"
+		form Sales_Tracking
+		{
+			displayname = "Sales Tracking"
+			success message = "Data Added Successfully!"
+			field alignment = left
+			feature property = 256
+			Section
+			(
+				type = section
+	 			row = 1
+	 			column = 0   
+				width = medium
+			)
+			must have Item_Name
+			(
+				type = picklist	
+				displayname = "Item Name"
+				values  = Menu_Management.ID
+    			displayformat = [" " + Item_Name.prefix + " " + Item_Name.first_name + " " + Item_Name.last_name + " " + Item_Name.suffix]
+				sortorder = ascending
+	 			row = 1
+	 			column = 1   
+				width = medium
+			)
+			Item_Price
+			(
+				displayname = "Item Price"
+				type = INR
+				format = commadotindian
+	 			row = 1
+	 			column = 1   
+				width = medium
+			)
+			must have Quantity_Sold
+			(
+				type = number
+				displayname = "Quantity Sold "
+	 			row = 1
+	 			column = 1   
+				width = medium
+			)
+			must have Order_Date
+			(
+    			type = date
+				displayname = "Order Date"
+				alloweddays = 0,1,2,3,4,5,6
+	 			row = 1
+	 			column = 1   
+				width = medium
+			)
+	
+			customize
+			(
+				icon = "shopping-delivery-track"
+			)
+			actions
+			{
+				on add
+				{
+					submit
+					(
+   						type = submit
+   						displayname = "Submit"
+					)
+					reset
+					(
+   						type = reset
+   						displayname = "Reset"
+					)
+				}
+				on edit
+				{
+					update
+					(
+   						type = submit
+   						displayname = "Update"
+					)
+					cancel
+					(
+   						type = cancel
+   						displayname = "Cancel"
+					)
+				}
+			}
+		}
+		list Total_sales_Report
+		{
+			displayName = "Total sales Report"
+			show all rows from Sales_Tracking    
+			(
+				Item_Name as "Item Name"
+				(
+					view = All_Menu_Management
+				)
+				Quantity_Sold as "Quantity Sold "
+				Order_Date as "Order Date"
+			)
+			options
+			(
+				icon = "business-businessman-03"
+	 		)
+			quickview
+			(
+				layout
+				(
+		 			type = -1
+					datablock1
+					(
+						layout type = -1
+						fields
+						(
+							Item_Name as "Item Name"
+							Quantity_Sold as "Quantity Sold "
+							Order_Date as "Order Date"
+						)
+					)
+				)
+				menu
+    			(
+    	 			header
+    	 			(
+    		 			Edit 
+    		 			Duplicate 
+    		 			Delete 
+    	 			)
+					record
+					(
+						Edit   	   
+						Duplicate   	   
+						Delete   	   
+    				)
+    			)
+    			action
+    			(
+					on click
+					(
+						View Record   	   
+    				)
+					on right click
+					(
+						Edit   	   
+						Delete   	   
+						Duplicate   	   
+						View Record   	   
+    				)
+     			)
+			)
+			detailview
+			(
+				layout
+				(
+		 			type = 1
+					datablock1
+					(
+						layout type = -2
+						fields
+						(
+							Item_Name as "Item Name"
+							Quantity_Sold as "Quantity Sold "
+							Order_Date as "Order Date"
+						)
+					)
+				)
+				menu
+    			(
+    	 			header
+    	 			(
+    		 			Edit 
+    		 			Duplicate 
+    		 			Delete 
+    	 			)
+    			)
+			)
+		}
+		pivotchart Sales_Analyse
+		{ 
+			displayname = "Sales Analyse"
+			legend = RIGHT
+			report properties
+			(
+				records displayed = all_records
+				allow export = false
+				allow drilldown and view underlying data = false
+		
+			)
+
+			based on Autoview_1719130391112_Sales_Tracking
+							icon = "ui-1-database"				show all rows from Sales_Tracking
+				(
+			Item_Name  as "Item Name"
+			Quantity_Sold  as "Quantity Sold"
+			Order_Date  as "Order Date"
+			Item_Price  as "Item Price"
+				)
+		}
+		custom Most_Ordered_Item
+		{
+			displayName = "Most Ordered Item"
+			show all rows from Sales_Tracking    
+			(
+				Item_Name as "Item Name"
+				(
+					view = All_Menu_Management
+				)
+				Quantity_Sold as "Quantity Sold "
+				Order_Date as "Order Date"
+			)
+			group by
+			(
+				Quantity_Sold descending
+				Item_Name descending
+				Order_Date custom
+			)
+			options
+			(
+				icon = "business-progress"
+	 		)
+			quickview
+			(
+				layout
+				(
+		 			type = 6
+					datablock1
+					(
+						layout type = 19
+						fields
+						(
+							Item_Name as "Item Name"
+							Quantity_Sold as "Quantity Sold "
+						)
+					)
+				)
+				menu
+    			(
+    	 			header
+    	 			(
+    		 			Edit 
+    		 			Duplicate 
+    		 			Delete 
+    	 			)
+					record
+					(
+						Edit   	   
+						Duplicate   	   
+						Delete   	   
+    				)
+    			)
+    			action
+    			(
+					on click
+					(
+						View Record   	   
+    				)
+					on right click
+					(
+						Edit   	   
+						Delete   	   
+						Duplicate   	   
+						View Record   	   
+    				)
+     			)
+			)
+			detailview
+			(
+				layout
+				(
+		 			type = 1
+					datablock1
+					(
+						layout type = -2
+						fields
+						(
+							Item_Name as "Item Name"
+							Quantity_Sold as "Quantity Sold "
+							Order_Date as "Order Date"
+						)
+					)
+				)
+				menu
+    			(
+    	 			header
+    	 			(
+    		 			Edit 
+    		 			Duplicate 
+    		 			Delete 
+    	 			)
+    			)
+			)
+		}
+		custom Least_Ordered_Item
+		{
+			displayName = "Least Ordered Item"
+			show all rows from Sales_Tracking    
+			(
+				Item_Name as "Item Name"
+				(
+					view = All_Menu_Management
+				)
+				Quantity_Sold as "Quantity Sold "
+				Order_Date as "Order Date"
+			)
+			group by
+			(
+				Quantity_Sold ascending
+				Item_Name ascending
+				Order_Date custom
+			)
+			options
+			(
+				icon = "business-progress"
+	 		)
+			quickview
+			(
+				layout
+				(
+		 			type = 6
+					datablock1
+					(
+						layout type = 19
+						fields
+						(
+							Item_Name as "Item Name"
+							Quantity_Sold as "Quantity Sold "
+						)
+					)
+				)
+				menu
+    			(
+    	 			header
+    	 			(
+    		 			Edit 
+    		 			Duplicate 
+    		 			Delete 
+    	 			)
+					record
+					(
+						Edit   	   
+						Duplicate   	   
+						Delete   	   
+    				)
+    			)
+    			action
+    			(
+					on click
+					(
+						View Record   	   
+    				)
+					on right click
+					(
+						Edit   	   
+						Delete   	   
+						Duplicate   	   
+						View Record   	   
+    				)
+     			)
+			)
+			detailview
+			(
+				layout
+				(
+		 			type = 1
+					datablock1
+					(
+						layout type = -2
+						fields
+						(
+							Item_Name as "Item Name"
+							Quantity_Sold as "Quantity Sold "
+							Order_Date as "Order Date"
+						)
+					)
+				)
+				menu
+    			(
+    	 			header
+    	 			(
+    		 			Edit 
+    		 			Duplicate 
+    		 			Delete 
+    	 			)
+    			)
+			)
+		}
+	}
+	section Order_Placement
+	{
+		displayname= "Order Placement"
+		form Customer_Order
+		{
+			displayname = "Customer Order"
+			success message = "\"Thank you for order!!\""
+			field alignment = left
+			feature property = 256
+			Section
+			(
+				type = section
+	 			row = 1
+	 			column = 0   
+				width = medium
+			)
+			must have Order_Date
+			(
+    			type = date
+				displayname = "Order Date"
+				alloweddays = 0,1,2,3,4,5,6
+	 			row = 1
+	 			column = 1   
+				width = medium
+			)
+			unique Order_ID
+			(
+    			type = text
+				displayname = "Order ID"
+	 			row = 1
+	 			column = 2   
+				width = medium
+			)
+			must have Order_Details
+			(
+				type = grid
+				displayname = "Order Details"
+				defaultrow = 1
+				S_No
+				(
+					type = number
+					displayname = "Serial. No."
+					initial value = 1
+					width = medium
+				)
+				Item_Name
+				(
+					type = picklist	
+					displayname = "Item Name"
+					values  = Menu_Management.ID
+    				displayformat = [" " + Item_Name.prefix + " " + Item_Name.first_name + " " + Item_Name.last_name + " " + Item_Name.suffix]
+					sortorder = ascending
+					width = medium
+				)
+				must have Quantity
+				(
+					type = number
+					initial value = 1
+					width = medium
+				)
+				must have Price
+				(
+					displayname = " Price"
+					type = INR
+					format = commadotwestern
+					initial value = 0.00
+					width = medium
+				)
+				must have Subtotal
+				(
+					type = decimal
+					width = medium
+				)
+	 			row = 2
+	 			column = 1   
+				width = 300px
+			)
+			Section1
+			(
+				type = section
+				displayname = "Section"
+	 			row = 3
+	 			column = 0   
+				width = medium
+			)
+			Available_Quantity
+			(
+				type = picklist	
+				displayname = "Available Quantity"
+				values  = Menu_Management.ID
+    			displayformat = [Available_Quantity]
+				sortorder = ascending
+	 			row = 3
+	 			column = 1   
+				width = medium
+			)
+			Total_Cost
+			(
+				type = decimal
+				displayname = "Total Cost"
+				initial value = 0.0
+	 			row = 3
+	 			column = 1   
+				width = 240px
+			)
+			Shipping_Details
+			(
+				type = section
+				displayname = "Shipping Details"
+				visibility = true
+	 			row = 4
+	 			column = 0   
+				width = medium
+			)
+			must have Name
+			(
+    			type = name
+     			prefix
+     			(
+	     			 type = prefix
+	     			 displayname ="Prefix"
+	     			 visibility = false
+	     			 value = {"Mr.","Mrs.","Ms."}
+     			) 
+     			first_name
+     			(
+	     			 type = first_name
+	     			 displayname ="First Name"
+     			) 
+     			last_name
+     			(
+	     			 type = last_name
+	     			 displayname ="Last Name"
+     			) 
+     			suffix
+     			(
+	     			 type = suffix
+	     			 displayname ="Suffix"
+	     			 visibility = false
+     			) 
+	 			row = 4
+	 			column = 1   
+				width = medium
+			)
+			must have Email
+			(
+    			type = email
+	 			row = 4
+	 			column = 1   
+				width = medium
+			)
+			must have Phone_Number
+			(
+    			type = phonenumber
+				displayname = "Phone Number"
+	 			row = 4
+	 			column = 1   
+				width = medium
+			)
+			Shipping_Address
+			(
+    			type = address
+				displayname = "Shipping Address"
+     			capture_coordinates = true
+     			adjust_using_map = false
+     			address_line_1
+     			(
+	     			  type = address_line_1
+	     			  displayname = "Address Line 1"
+     			) 
+     			address_line_2
+     			(
+	     			  type = address_line_2
+	     			  displayname = "Address Line 2"
+     			) 
+     			district_city
+     			(
+	     			  type = district_city
+	     			  displayname = "City / District"
+     			) 
+     			state_province
+     			(
+	     			  type = state_province
+	     			  displayname = "State / Province"
+     			) 
+     			postal_Code
+     			(
+	     			  type = postal_Code
+	     			  displayname = "Postal Code"
+     			) 
+     			country
+     			(
+	     			  type = country
+	     			  displayname = "Country"
+     			) 
+     			latitude
+     			(
+	     			  type = latitude
+	     			  displayname = "latitude"
+	     			 visibility = false
+     			) 
+     			longitude
+     			(
+	     			  type = longitude
+	     			  displayname = "longitude"
+	     			 visibility = false
+     			) 
+	 			row = 4
+	 			column = 1   
+				width = medium
+			)
+			Status
+			(
+				type = picklist
+				values = {"Pending","Ready for Delivery","Delivered"}
+				initial value = "Pending"
+	 			row = 4
+	 			column = 1   
+				width = medium
+			)
+	
+			actions
+			{
+				on add
+				{
+					submit
+					(
+   						type = submit
+   						displayname = "Submit"
+					)
+					reset
+					(
+   						type = reset
+   						displayname = "Reset"
+					)
+				}
+				on edit
+				{
+					update
+					(
+   						type = submit
+   						displayname = "Update"
+					)
+					cancel
+					(
+   						type = cancel
+   						displayname = "Cancel"
+					)
+				}
+			}
+		print template
+			{
+				Invoice
+				{
+						content = {"pageNumberOption":null,"orientation":"null","images":[{"fileName":"","imageId":"","imageType":"","fileId":""},{"fileName":"1719161905448_deliboy_with_bike2.jpg","imageId":"img_713696","imageType":"upload","fileId":"5085928000000003097"}],"imageId":"","isFooterEnabled":false,"containerStyle":"","templateStyle":"text-align: left; width: 793.7px; margin: 0px; padding: 30px; background-color: rgb(253, 244, 245)","version":"2","layout":"1","mainLayout":[{"elements":[{"type":"columns","element":{"split":"34,33,33","id":"u_elem_707364","elemStyle":"background-color: rgb(245, 245, 245); padding: 10px 10px 0 10px","collayouts":[{"colElements":[{"type":"columns","element":{"split":"7,93","id":"u_elem_707372","elemStyle":"","collayouts":[{"colElements":[{"type":"text","element":{"id":"u_elem_707373","fields":[],"content":"<div style=\"\">\n   <p><br /><\/p>\n  <\/div>"}}]},{"colElements":[{"type":"text","element":{"id":"u_elem_707373","fields":[],"content":"<div style=\"\">\n   <br />\n   <br />\n  <\/div>"}},{"type":"image","element":{"imageId":"img_713696","size":"NONE","src":"https://creator.zoho.in/appbuilder/subiksha767/crave-wave/downLoadImage?imgFileId=5085928000000003097&imgFileName=1719161905448_deliboy_with_bike2.jpg","captionMargin":"0px auto","alt":"","caption":"","selectFormCompId":"","id":"u_elem_707373","align":"left","elemStyle":"border: 0px solid rgb(169, 169, 169); margin-top: 5px; width: 124px; padding-left: 6px","formCompId":""}}]}]}}]},{"colElements":[{"type":"text","element":{"id":"u_elem_707373","fields":[],"content":"<div style=\"\">\n   <br />\n  <\/div>"}},{"type":"text","element":{"id":"u_elem_707373","fields":[],"content":"<div style=\"\">\n   <br />\n   <br />\n  <\/div>"}},{"type":"text","element":{"id":"u_elem_707373","fields":[],"content":"<div style=\"\">\n   <p style=\"text-align: center\"><b><font\n        size=\"7\">INVOICE<\/font><\/b><\/p>\n   <p><b><font size=\"7\"><br /><\/font><\/b><\/p>\n  <\/div>"}}]},{"colElements":[{"type":"columns","element":{"split":"91,9","id":"u_elem_707373","elemStyle":"","collayouts":[{"colElements":[{"type":"text","element":{"id":"u_elem_707374","fields":[],"content":"<div style=\"\">\n   <br /> \n   <br /> \n   <br />\n  <\/div>"}},{"type":"text","element":{"id":"u_elem_707374","fields":[],"content":"<div style=\"background-color: rgb(253, 244, 245)\">\n   <p\n      style=\"text-align: right\"><font style=\"font-size: 16px\"><b\n    style=\"background-color: rgb(253, 244, 245)\">BiteBoutique<\/b><\/font><\/p>\n   <p\n          style=\"text-align: right\"><span><span><font\n            style=\"font-size: 16px\"><span\n              style=\"background-color: rgb(253, 244, 245)\">\n\n<span style=\"background-color: rgb(253, 244, 245)\">SF 201, Sivanandapuram, sathy Rd,, SF 201, Sivanandapuram, sathy Rd,, coimbatore, Tamil Nadu, 641035<\/span>\n\n<\/span><br /><\/font><\/span><\/span><\/p>\n  <\/div>"}}]},{"colElements":[{"type":"text","element":{"id":"u_elem_707374","fields":[],"content":"<div style=\"\">\n   <p><br /><\/p>\n  <\/div>"}}]}]}}]}]}},{"type":"columns","element":{"split":"67,33","id":"u_elem_707374","elemStyle":"background-color: rgb(240, 240, 240); border-top: 1px solid rgb(230, 230, 230); border-bottom: 1px solid rgb(230, 230, 230); padding: 10px","collayouts":[{"colElements":[{"type":"text","element":{"id":"u_elem_707374","fields":[],"content":"<div style=\"\">\n   <p><br /><\/p>\n  <\/div>"}}]},{"colElements":[{"type":"columns","element":{"split":"100","id":"u_elem_707374","elemStyle":"","collayouts":[{"colElements":[{"type":"text","element":{"id":"u_elem_707375","fields":[],"content":"<div style=\"\">\n   <p><br /><\/p>\n  <\/div>"}}]}]}}]}]}},{"type":"columns","element":{"split":"100","id":"u_elem_707375","elemStyle":"","collayouts":[{"colElements":[{"type":"text","element":{"id":"u_elem_707375","fields":[],"content":"<div style=\"\">\n   <br />\n  <\/div>"}}]}]}},{"type":"columns","element":{"split":"62,36,2","id":"u_elem_707376","elemStyle":"padding:10px","collayouts":[{"colElements":[{"type":"columns","element":{"split":"2,98","id":"u_elem_707383","elemStyle":"padding:10px","collayouts":[{"colElements":[{"type":"text","element":{"id":"u_elem_707384","fields":[],"content":"<div style=\"\">\n   <p><br /><\/p>\n  <\/div>"}}]},{"colElements":[{"id":"u_elem_21625891794254831","type":"fields","element":{"valueStyle":"width: 50%","valueTextStyle":"font-size: 16px","fieldLayoutType":"6","labelText":"Name","wrapperStyle":"","labelStyle":"width: 50%; background-color: rgb(253, 244, 245)","Label_Name":"Name","labelTextStyle":"font-weight: bold; font-size: 16px","compFields":["first_name","last_name"]}}]}]}}]},{"colElements":[{"type":"columns","element":{"split":"50,50","id":"u_elem_707384","elemStyle":"padding:10px","collayouts":[{"colElements":[{"type":"text","element":{"id":"u_elem_707384","fields":[],"content":"<div style=\"\">\n   <p style=\"text-align: right\"><b\n      style=\"font-size: medium\">Invoice Date&nbsp;<\/b><b\n    style=\"font-size: medium\">:<\/b><span><\/span><\/p><p\n    style=\"text-align: right\"><br /><\/p>\n   <p\n            style=\"text-align: right\"><span><span><span><font\n    size=\"3\"><b>Terms<\/b>&nbsp;<span><span><span><span><b>:<\/b><\/span><\/span><\/span><\/span><\/font><\/span><\/span><\/span><\/p><p\n            style=\"text-align: right\"><span><span><span><font\n    size=\"3\"><span><span><span><span><b><br /><\/b><\/span><\/span><\/span><\/span><\/font><\/span><\/span><\/span><\/p>\n   <p\n                          style=\"text-align: right\"><span><span><span><span><span><span><span><span><span><span><font\n    size=\"3\"><b>Due Date<\/b>&nbsp;<span><span><b>:<\/b><\/span><\/span><\/font><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/p><p\n                          style=\"text-align: right\"><span><span><span><span><span><span><span><span><span><span><font\n    size=\"3\"><span><span><b><br /><\/b><\/span><\/span><\/font><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/p><p\n                          style=\"text-align: right\"><span><span><span><span><span><span><span><span><span><span><font size=\"3\"><span><span><b><br /><\/b><\/span><\/span><\/font><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/p>\n   <p><\/p>\n  <\/div>"}}]},{"colElements":[{"type":"text","element":{"Fields":[{"Label_Name":"Order_Date"}],"id":"u_elem_707384","content":"<div style=\"\">\n   <p style=\"text-align: right\"><font\n        size=\"3\">17-Oct-2018<span>${Order_Date}<\/span><span\n    style=\"color: rgb(0, 0, 0); font-family: Lato, Arimo, sans-serif; font-size: 16px; font-weight: 400; font-style: normal\">&nbsp;<\/span><span><\/span><\/font><\/p>\n   <p\n                          style=\"text-align: right\"><span><span><span><span><span><span><span><span><span><span><font\n    size=\"3\">Due On Receipt<\/font><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/p>\n   <p\n                                    style=\"text-align: right\"><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><font\n                                    size=\"3\">17-Oct-2020<span>${Order_Date}<\/span><span\n    style=\"color: rgb(0, 0, 0); font-family: Lato, Arimo, sans-serif; font-size: 16px; font-weight: 400; font-style: normal\">&nbsp;<\/span><\/font><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/span><\/p>\n   <p style=\"text-align: right\"><br /><\/p>\n  <\/div>"}}]}]}}]},{"colElements":[{"type":"text","element":{"id":"u_elem_707384","fields":[],"content":"<div style=\"\">\n   <p><br /><\/p>\n  <\/div>"}}]}]}},{"type":"columns","element":{"split":"100","id":"u_elem_707384","elemStyle":"","collayouts":[{"colElements":[{"type":"text","element":{"id":"u_elem_707384","fields":[],"content":"<div style=\"\">\n   <br />\n  <\/div>"}}]}]}},{"type":"columns","element":{"split":"100","id":"u_elem_707384","elemStyle":"","collayouts":[{"colElements":[{"id":"u_elem_21625891794265771","type":"lookupfields","element":{"valueStyle":"width: 50%","valueTextStyle":"font-weight: bold","fieldLayoutType":"1","related_Form":"ZC_SUBFORM_129","labelText":"Order Details","wrapperStyle":"","labelStyle":"width: 50%; display: none","Label_Name":"Order_Details","refFields":[{"fieldLayoutType":"2","labelText":"Serial. No.","Label_Name":"S_No"},{"valueStyle":"padding: 2em 2em 2em 0.7em; text-align: left","fieldLayoutType":"2","labelText":"Item Name","labelStyle":"width: 10%; font-weight: bold; text-align: left","Label_Name":"Item_Name"},{"fieldLayoutType":"2","labelText":"Quantity","Label_Name":"Quantity"},{"valueStyle":"padding: 2em 2em 2em 0.7em; text-align: left","fieldLayoutType":"2","labelText":"Price","labelStyle":"width: 25%; font-weight: bold; text-align: left","Label_Name":"Price"},{"valueStyle":"padding: 2em 2em 2em 0.7em; text-align: left","fieldLayoutType":"2","labelText":"Subtotal","labelStyle":"width: 9%; font-weight: bold; text-align: left","Label_Name":"Subtotal"}],"labelTextStyle":"font-weight: bold"}}]}]}},{"type":"columns","element":{"split":"51,45,4","id":"u_elem_707384","elemStyle":"background-color: rgb(240, 240, 240); border-top: 1px solid rgb(230, 230, 230); border-bottom: 1px solid rgb(230, 230, 230); padding: 20px 0","collayouts":[{"colElements":[{"type":"text","element":{"id":"u_elem_707391","fields":[],"content":"<div style=\"\">\n   <p><br /><\/p>\n  <\/div>"}}]},{"colElements":[{"id":"u_elem_21625891794279698","type":"fields","element":{"valueStyle":"width: 25%","valueTextStyle":"text-align: right; font-size: 16px","fieldLayoutType":"2","labelText":"Sub Total","wrapperStyle":"","labelStyle":"width: 75%; background-color: rgb(240, 240, 240)","Select_Field":true,"formCompId":"0","labelTextStyle":"font-weight: bold; text-align: right; font-size: 16px"}},{"id":"u_elem_21625891794284206","type":"fields","element":{"valueStyle":"width: 25%","valueTextStyle":"text-align: right; font-size: 16px","fieldLayoutType":"2","labelText":"Total","wrapperStyle":"","labelStyle":"width: 75%; background-color: rgb(240, 240, 240)","Select_Field":true,"formCompId":"0","labelTextStyle":"text-align: right; font-weight: bold; font-size: 16px"}}]},{"colElements":[{"type":"text","element":{"id":"u_elem_707391","fields":[],"content":"<div style=\"\">\n   <p><br /><\/p>\n  <\/div>"}}]}]}},{"type":"columns","element":{"split":"96,4","id":"u_elem_707391","elemStyle":"background-color: rgb(255, 255, 255); padding: 20px 0px","collayouts":[{"colElements":[{"id":"u_elem_21625891794287272","type":"fields","element":{"valueStyle":"width: 25%","valueTextStyle":"font-weight: bold; text-align: right; font-size: 16px","fieldLayoutType":"2","labelText":"Total Cost","wrapperStyle":"","labelStyle":"width: 75%; background-color: rgb(255, 255, 255)","Label_Name":"Total_Cost","labelTextStyle":"font-weight: bold; font-size: 16px; text-align: right"}}]},{"colElements":[{"type":"text","element":{"id":"u_elem_707392","fields":[],"content":"<div style=\"\">\n   <p><br /><\/p>\n  <\/div>"}}]}]}},{"type":"columns","element":{"split":"100","id":"u_elem_707392","elemStyle":"","collayouts":[{"colElements":[{"type":"text","element":{"id":"u_elem_707392","fields":[],"content":"<div style=\"\">\n   <br />\n   <br />\n  <\/div>"}}]}]}},{"type":"columns","element":{"split":"3,97","id":"u_elem_707392","elemStyle":"","collayouts":[{"colElements":[{"type":"text","element":{"id":"u_elem_707399","fields":[],"content":"<div style=\"\">\n   <p><br /><\/p>\n  <\/div>"}}]},{"colElements":[{"type":"text","element":{"id":"u_elem_707399","fields":[],"content":"<div style=\"\">\n   <p><font\n      size=\"3\"><b>Terms &amp; Conditions<\/b><\/font><\/p>\n   <p><font size=\"3\">Invoice due upon receipt. Payable within 15 business days.<\/font><\/p>\n  <\/div>"}}]}]}},{"type":"columns","element":{"split":"100","id":"u_elem_707399","elemStyle":"","collayouts":[{"colElements":[{"type":"text","element":{"id":"u_elem_707399","fields":[],"content":"<div style=\"\">\n   <br />\n   <br /> \n  <\/div>"}}]}]}},{"type":"columns","element":{"split":"100","id":"u_elem_707399","elemStyle":"","collayouts":[{"colElements":[{"type":"text","element":{"id":"u_elem_707399","fields":[],"content":"<div style=\"\">\n   <hr style=\"border-color: rgb(240, 240, 240)\" />\n  <\/div>"}}]}]}},{"type":"columns","element":{"split":"100","id":"u_elem_707399","elemStyle":"","collayouts":[{"colElements":[{"type":"text","element":{"id":"u_elem_707399","fields":[],"content":"<div style=\"\">\n   <br /> \n   <p style=\"text-align: center\"> <font size=\"3\"><b>Notes:<\/b>&nbsp;For any queries, please contact Praveenraj : 9876543210<\/font><\/p> \n   <br />\n  <\/div>"}}]}]}}],"id":1}],"resize":"A4","themeFont":"lato","isHeaderEnabled":false}
+				}
+			}
+		}
+		list All_Orders
+		{
+			displayName = "All Orders"
+			show all rows from Customer_Order    
+			(
+				Name 
+	 			(
+	      			displayformat = [first_name+""+last_name]
+	 			)
+				Shipping_Address  as "Shipping Address"
+	 			(
+	      			displayformat = [address_line_1+""+address_line_2+""+district_city+""+state_province+""+postal_Code+""+country]
+	 			)
+				Order_Date as "Order Date"
+				Order_ID as "Order ID"
+				Status
+				Total_Cost as "Total Cost"
+				Phone_Number as "Phone Number"
+				Email
+			)
+			conditional formatting
+			(
+				"Pending Orders"
+				{
+				condition = (Status == "Pending")
+				fields = [Order_ID, Status]
+				format = "color:#b8841b;"
+				}
+				"Ready for Delivery"
+				{
+				condition = (Status == "Ready for Delivery")
+				fields = [Order_ID, Status]
+				format = "color:#9a47d1;"
+				}
+				"Delivered"
+				{
+				condition = (Status == "Delivered")
+				fields = [Order_ID, Status]
+				format = "color:#1ca885;"
+				}
+			)
+			quickview
+			(
+				layout
+				(
+		 			type = -1
+					datablock1
+					(
+						layout type = -1
+		     			title = "Overview"
+						fields
+						(
+							Name
+							Email
+							Phone_Number as "Phone Number"
+							Shipping_Address as "Shipping Address"
+							Order_Date as "Order Date"
+							Order_ID as "Order ID"
+							Total_Cost as "Total Cost"
+							Status
+						)
+					)
+				)
+				menu
+    			(
+    	 			header
+    	 			(
+    		 			Edit 
+    		 			Duplicate 
+    		 			Delete 
+    		 			Add 
+    		 			Print 
+    		 			Import 
+    		 			Export 
+    	 			)
+					record
+					(
+						Edit   	   
+						Duplicate   	   
+						Print   	   
+						Delete   	   
+    				)
+    			)
+    			action
+    			(
+					on click
+					(
+						View Record   	   
+    				)
+					on right click
+					(
+						Edit   	   
+						Delete   	   
+						Duplicate   	   
+						Print   	   
+						View Record   	   
+    				)
+     			)
+			)
+			detailview
+			(
+				layout
+				(
+		 			type = 2
+					datablock1
+					(
+						layout type = -2
+		     			title = "Overview"
+						fields
+						(
+							Name
+							Email
+							Phone_Number as "Phone Number"
+							Shipping_Address as "Shipping Address"
+							Order_Date as "Order Date"
+							Order_ID as "Order ID"
+							Status
+							Total_Cost as "Total Cost"
+						)
+					)
+					datablock2
+					(
+						layout type = -1
+		     			title = "Order Details"
+		     			related field = Order_Details
+						fields
+						(
+							S_No as "Serial. No."
+							Quantity
+							Subtotal
+							Price as " Price"
+						)
+					)
+				)
+				menu
+    			(
+    	 			header
+    	 			(
+    		 			Edit 
+    		 			Duplicate 
+    		 			Print 
+    		 			Delete 
+    	 			)
+    			)
+			)
+		}
+		kanban Order_Status
+		{
+			displayName = "Order Status"
+			show all rows from Customer_Order    
+			(
+				Name 
+	 			(
+	      			displayformat = [first_name+""+prefix+""+last_name+""+suffix]
+	 			)
+				Shipping_Address  as "Shipping Address"
+	 			(
+	      			displayformat = [address_line_1+""+address_line_2+""+district_city+""+state_province+""+postal_Code+""+country]
+	 			)
+				Status
+				Email
+				Order_Date as "Order Date"
+				Phone_Number as "Phone Number"
+				Total_Cost as "Total Cost"
+				Order_ID as "Order ID"
+			)
+			options
+			(
+	 			display field = Status
+	 		)
+			quickview
+			(
+				layout
+				(
+		 			type = 2
+					datablock1
+					(
+						layout type = 4
+		     			title = "Overview"
+						fields
+						(
+							Order_ID as "Order ID"
+							Shipping_Address as "Shipping Address"
+							Name
+							Phone_Number as "Phone Number"
+							Total_Cost as "Total Cost"
+						)
+					)
+				)
+				menu
+    			(
+    	 			header
+    	 			(
+    		 			Edit 
+    		 			Duplicate 
+    		 			Delete 
+    		 			Add 
+    		 			Print 
+    		 			Import 
+    		 			Export 
+    	 			)
+					record
+					(
+						Edit   	   
+						Duplicate   	   
+						Print   	   
+						Delete   	   
+    				)
+    			)
+    			action
+    			(
+					on click
+					(
+						View Record   	   
+    				)
+					on right click
+					(
+						Edit   	   
+						Delete   	   
+						Duplicate   	   
+						Print   	   
+						View Record   	   
+    				)
+     			)
+			)
+			detailview
+			(
+				layout
+				(
+		 			type = 2
+					datablock1
+					(
+						layout type = -2
+		     			title = "Overview"
+						fields
+						(
+							Order_Date as "Order Date"
+							Order_ID as "Order ID"
+							Name
+							Email
+							Phone_Number as "Phone Number"
+							Shipping_Address as "Shipping Address"
+							Total_Cost as "Total Cost"
+						)
+					)
+					datablock2
+					(
+						layout type = -1
+		     			title = "Order Details"
+		     			related field = Order_Details
+						fields
+						(
+							S_No as "Serial No."
+							Quantity
+							Price as " Price"
+							Subtotal
+						)
+					)
+				)
+				menu
+    			(
+    	 			header
+    	 			(
+    		 			Edit 
+    		 			Print 
+    		 			Delete 
+    		 			Duplicate 
+    	 			)
+    			)
+			)
+		}
+	}
+	section Driver_Registrations
+	{
+		displayname= "Driver Registrations"
+		icon = "transportation-car"
+		form Driver_Registration
+		{
+			displayname = "Driver Registration"
+			success message = "Driver Registration Added Successfully"
+			field alignment = left
+			Section
+			(
+				type = section
+	 			row = 1
+	 			column = 0   
+				width = medium
+			)
+			must have Name
+			(
+    			type = name
+     			prefix
+     			(
+	     			 type = prefix
+	     			 displayname ="Prefix"
+	     			 visibility = false
+	     			 value = {"Mr.","Mrs.","Ms."}
+     			) 
+     			first_name
+     			(
+	     			 type = first_name
+	     			 displayname ="First Name"
+     			) 
+     			last_name
+     			(
+	     			 type = last_name
+	     			 displayname ="Last Name"
+     			) 
+     			suffix
+     			(
+	     			 type = suffix
+	     			 displayname ="Suffix"
+	     			 visibility = false
+     			) 
+	 			row = 1
+	 			column = 1   
+				width = medium
+				personal data = true
+			)
+			must have Location
+			(
+    			type = address
+     			capture_coordinates = true
+     			adjust_using_map = true
+     			address_line_1
+     			(
+	     			  type = address_line_1
+	     			  displayname = "Address Line 1"
+     			) 
+     			address_line_2
+     			(
+	     			  type = address_line_2
+	     			  displayname = "Address Line 2"
+     			) 
+     			district_city
+     			(
+	     			  type = district_city
+	     			  displayname = "City / District"
+     			) 
+     			state_province
+     			(
+	     			  type = state_province
+	     			  displayname = "State / Province"
+     			) 
+     			postal_Code
+     			(
+	     			  type = postal_Code
+	     			  displayname = "Postal Code"
+     			) 
+     			country
+     			(
+	     			  type = country
+	     			  displayname = "Country"
+     			) 
+     			latitude
+     			(
+	     			  type = latitude
+	     			  displayname = "latitude"
+	     			 visibility = false
+     			) 
+     			longitude
+     			(
+	     			  type = longitude
+	     			  displayname = "longitude"
+	     			 visibility = false
+     			) 
+	 			row = 1
+	 			column = 1   
+				width = medium
+				personal data = true
+			)
+			Location_Driver_can_travel
+			(
+				type = list	
+				displayname = "Location Driver can travel"
+				values = {"Peelamedu","Race course","Gandhipuram","RS Puram","Saibaba Colony","Avinashi Road","Hopes College","Singanallur"}
+				height = 60px
+	 			row = 1
+	 			column = 1   
+				width = medium
+			)
+			Vehicle_Type
+			(
+				type = picklist
+				displayname = "Vehicle Type"
+				maxchar = 100
+				values = {"Car","Bike","Scooty"}
+	 			row = 1
+	 			column = 1   
+				width = medium
+			)
+			must have Delivery_Status
+			(
+				type = picklist
+				displayname = "Delivery Status"
+				maxchar = 100
+				values = {"Available","Busy"}
+	 			row = 1
+	 			column = 1   
+				width = medium
+			)
+	
+			customize
+			(
+				icon = "design-window-paragraph"
+			)
+			actions
+			{
+				on add
+				{
+					submit
+					(
+   						type = submit
+   						displayname = "Submit"
+					)
+					reset
+					(
+   						type = reset
+   						displayname = "Reset"
+					)
+				}
+				on edit
+				{
+					update
+					(
+   						type = submit
+   						displayname = "Update"
+					)
+					cancel
+					(
+   						type = cancel
+   						displayname = "Cancel"
+					)
+				}
+			}
+		}
+		default list All_Driver_Registrations
+		{
+			displayName = "All Driver Registrations"
+			show all rows from Driver_Registration    
+			(
+				Name 
+	 			(
+	      			displayformat = [first_name+""+last_name]
+	 			)
+				Location 
+	 			(
+	      			displayformat = [address_line_1+""+address_line_2+""+district_city+""+state_province+""+postal_Code+""+country]
+	      			enable = Link_to_Map,Show_As_Text
+	 			)
+				Vehicle_Type as "Vehicle Type"
+				Delivery_Status as "Delivery Status"
+				Location_Driver_can_travel as "Location Driver can travel"
+			)
+			options
+			(
+				icon = "transportation-car"
+	 		)
+			quickview
+			(
+				layout
+				(
+		 			type = -1
+					datablock1
+					(
+						layout type = -1
+						fields
+						(
+							Name
+							Location
+							Vehicle_Type as "Vehicle Type"
+							Delivery_Status as "Delivery Status"
+							Location_Driver_can_travel as "Location Driver can travel"
+						)
+					)
+				)
+				menu
+    			(
+    	 			header
+    	 			(
+    		 			Edit 
+    		 			Duplicate 
+    		 			Delete 
+    	 			)
+					record
+					(
+						Edit   	   
+						Duplicate   	   
+						Delete   	   
+    				)
+    			)
+    			action
+    			(
+					on click
+					(
+						View Record   	   
+    				)
+					on right click
+					(
+						Edit   	   
+						Delete   	   
+						Duplicate   	   
+						View Record   	   
+    				)
+     			)
+			)
+			detailview
+			(
+				layout
+				(
+		 			type = 1
+					datablock1
+					(
+						layout type = -2
+						fields
+						(
+							Name
+							Location
+							Vehicle_Type as "Vehicle Type"
+							Delivery_Status as "Delivery Status"
+							Location_Driver_can_travel as "Location Driver can travel"
+						)
+					)
+				)
+				menu
+    			(
+    	 			header
+    	 			(
+    		 			Edit 
+    		 			Duplicate 
+    		 			Delete 
+    	 			)
+    			)
+			)
+		}
+		map Driver_Location
+		{
+			displayName = "Driver Location"
+			show all rows from Driver_Registration    
+			(
+				Name 
+	 			(
+	      			displayformat = [first_name+""+prefix+""+last_name+""+suffix]
+	 			)
+				Location 
+	 			(
+	      			displayformat = [address_line_1+""+address_line_2+""+district_city+""+state_province+""+postal_Code+""+country]
+	      			enable = Link_to_Map,Show_As_Text
+	 			)
+				Location_Driver_can_travel as "Location Driver can travel"
+				Vehicle_Type as "Vehicle Type"
+				Delivery_Status as "Delivery Status"
+			)
+			options
+			(
+	 			display field = Location
+	 	 		radius = 100 Miles
+		 		icon = "weather-compass"
+	 		)
+			quickview
+			(
+				layout
+				(
+		 			type = 1
+					datablock1
+					(
+						layout type = 1
+						fields
+						(
+							Name
+							Location
+						)
+					)
+				)
+				menu
+    			(
+    	 			header
+    	 			(
+    		 			Edit 
+    		 			Duplicate 
+    		 			Delete 
+    	 			)
+					record
+					(
+						Edit   	   
+						Duplicate   	   
+						Delete   	   
+    				)
+    			)
+    			action
+    			(
+					on click
+					(
+						View Record   	   
+    				)
+					on right click
+					(
+						Edit   	   
+						Delete   	   
+						Duplicate   	   
+						View Record   	   
+    				)
+     			)
+			)
+			detailview
+			(
+				layout
+				(
+		 			type = 1
+					datablock1
+					(
+						layout type = -2
+						fields
+						(
+							Name
+							Location
+							Location_Driver_can_travel as "Location Driver can travel"
+							Vehicle_Type as "Vehicle Type"
+							Delivery_Status as "Delivery Status"
+						)
+					)
+				)
+				menu
+    			(
+    	 			header
+    	 			(
+    		 			Edit 
+    		 			Duplicate 
+    		 			Delete 
+    	 			)
+    			)
+			)
+		}
+	}
+	section Order_Assignments
+	{
+		displayname= "Order Assignments"
+		icon = "shopping-basket-edit"
+		form Order_Tracking
+		{
+			displayname = "Order Tracking"
+			success message = "Order Assignment Added Successfully"
+			field alignment = left
+			Section
+			(
+				type = section
+	 			row = 1
+	 			column = 0   
+				width = medium
+			)
+			must have Assigned_Driver
+			(
+				type = picklist	
+				displayname = "Assigned Driver Name"
+				values  = Driver_Registration.ID
+    			displayformat = [" " + Name.prefix + " " + Name.first_name + " " + Name.last_name + " " + Name.suffix]
+				sortorder = ascending
+	 			row = 1
+	 			column = 1   
+				width = medium
+			)
+			must have Driver_Location
+			(
+				type = picklist	
+				displayname = "Driver Location"
+				values  = Driver_Registration.ID
+    			displayformat = [" " + Location.address_line_1 + " " + Location.address_line_2 + " " + Location.district_city + " " + Location.state_province]
+	 			row = 1
+	 			column = 1   
+				width = medium
+			)
+			Delivery_Status
+			(
+				type = picklist
+				displayname = "Delivery Status"
+				maxchar = 100
+				values = {"Pending","In Progress","Delivered"}
+	 			row = 1
+	 			column = 1   
+				width = medium
+			)
+			Order_Details
+			(
+				type = section
+				displayname = "Order Details"
+				visibility = true
+	 			row = 2
+	 			column = 0   
+				width = medium
+			)
+			must have Order_ID
+			(
+				type = picklist	
+				displayname = "Order ID"
+				values  = Customer_Order.ID
+    			displayformat = [Order_ID]
+				sortorder = ascending
+	 			row = 2
+	 			column = 1   
+				width = medium
+			)
+			must have Order_Date
+			(
+    			type = date
+				displayname = " Order Date"
+				alloweddays = 0,1,2,3,4,5,6
+	 			row = 2
+	 			column = 1   
+				width = medium
+			)
+			must have Customer_Location
+			(
+				type = picklist	
+				displayname = "Customer Location"
+				values  = Customer_Order.ID
+    			displayformat = [" " + Shipping_Address.address_line_1 + " " + Shipping_Address.address_line_2 + " " + Shipping_Address.district_city + " " + Shipping_Address.state_province]
+				sortorder = ascending
+	 			row = 2
+	 			column = 1   
+				width = medium
+			)
+	
+			customize
+			(
+				icon = "shopping-basket-edit"
+			)
+			actions
+			{
+				on add
+				{
+					submit
+					(
+   						type = submit
+   						displayname = "Submit"
+					)
+					reset
+					(
+   						type = reset
+   						displayname = "Reset"
+					)
+				}
+				on edit
+				{
+					update
+					(
+   						type = submit
+   						displayname = "Update"
+					)
+					cancel
+					(
+   						type = cancel
+   						displayname = "Cancel"
+					)
+				}
+			}
+		}
+		default list All_Order_Assignments
+		{
+			displayName = "All Order Assignments"
+			show all rows from Order_Tracking    
+			(
+				Assigned_Driver as "Assigned Driver Name"
+				(
+					view = All_Driver_Registrations
+				)
+				Delivery_Status as "Delivery Status"
+				Driver_Location as "Driver Location"
+				(
+					view = All_Driver_Registrations
+				)
+				Order_ID as "Order ID"
+				(
+					view = All_Orders
+				)
+				Customer_Location as "Customer Location"
+				(
+					view = All_Orders
+				)
+				Order_Date as " Order Date"
+			)
+			options
+			(
+				icon = "travel-world"
+	 		)
+			quickview
+			(
+				layout
+				(
+		 			type = -1
+					datablock1
+					(
+						layout type = -1
+						fields
+						(
+							Assigned_Driver as "Assigned Driver Name"
+							Driver_Location as "Driver Location"
+							Delivery_Status as "Delivery Status"
+							Order_ID as "Order ID"
+							Customer_Location as "Customer Location"
+							Order_Date as " Order Date"
+						)
+					)
+				)
+				menu
+    			(
+    	 			header
+    	 			(
+    		 			Edit 
+    		 			Duplicate 
+    		 			Delete 
+    	 			)
+					record
+					(
+						Edit   	   
+						Duplicate   	   
+						Delete   	   
+    				)
+    			)
+    			action
+    			(
+					on click
+					(
+						View Record   	   
+    				)
+					on right click
+					(
+						Edit   	   
+						Delete   	   
+						Duplicate   	   
+						View Record   	   
+    				)
+     			)
+			)
+			detailview
+			(
+				layout
+				(
+		 			type = 1
+					datablock1
+					(
+						layout type = -2
+						fields
+						(
+							Assigned_Driver as "Assigned Driver Name"
+							Driver_Location as "Driver Location"
+							Delivery_Status as "Delivery Status"
+							Order_ID as "Order ID"
+							Customer_Location as "Customer Location"
+							Order_Date as " Order Date"
+						)
+					)
+				)
+				menu
+    			(
+    	 			header
+    	 			(
+    		 			Edit 
+    		 			Duplicate 
+    		 			Delete 
+    	 			)
+    			)
+			)
+		}
+	}
+	section TemplateForm
+	{
+		icon = "tech-desktop"
+		form TemplateForm
+		{
+			success message = "Data Added Successfully!"
+			field alignment = left
+			Section
+			(
+				type = section
+	 			row = 1
+	 			column = 0   
+				width = medium
+			)
+			Invoice
+			(
+    			type = upload file
+				displayname = "InvoiceTemplate"
+				browse = local_drive
+	 			row = 1
+	 			column = 1   
+				width = medium
+			)
+	
+			customize
+			(
+				icon = "ui-1-bold-add"
+			)
+			actions
+			{
+				on add
+				{
+					submit
+					(
+   						type = submit
+   						displayname = "Submit"
+					)
+					reset
+					(
+   						type = reset
+   						displayname = "Reset"
+					)
+				}
+				on edit
+				{
+					update
+					(
+   						type = submit
+   						displayname = "Update"
+					)
+					cancel
+					(
+   						type = cancel
+   						displayname = "Cancel"
+					)
+				}
+			}
+		}
+		default list TemplateForm_Report
+		{
+			displayName = "TemplateForm Report"
+			show all rows from TemplateForm    
+			(
+				Invoice as "InvoiceTemplate"
+			)
+			options
+			(
+				icon = "business-laptop-71"
+	 		)
+			quickview
+			(
+				layout
+				(
+		 			type = -1
+					datablock1
+					(
+						layout type = -1
+						fields
+						(
+							Invoice as "InvoiceTemplate"
+						)
+					)
+				)
+				menu
+    			(
+    	 			header
+    	 			(
+    		 			Edit 
+    		 			Duplicate 
+    		 			Delete 
+    	 			)
+					record
+					(
+						Edit   	   
+						Duplicate   	   
+						Delete   	   
+    				)
+    			)
+    			action
+    			(
+					on click
+					(
+						View Record   	   
+    				)
+					on right click
+					(
+						Edit   	   
+						Delete   	   
+						Duplicate   	   
+						View Record   	   
+    				)
+     			)
+			)
+			detailview
+			(
+				layout
+				(
+		 			type = 1
+					datablock1
+					(
+						layout type = -2
+						fields
+						(
+							Invoice as "InvoiceTemplate"
+						)
+					)
+				)
+				menu
+    			(
+    	 			header
+    	 			(
+    		 			Edit 
+    		 			Duplicate 
+    		 			Delete 
+    	 			)
+    			)
+			)
+		}
+	}
+
+
+
+
+
+
+		workflow
+		{
+		form
+		{
+			Run_Scripts_On_Always6 as "Run Scripts - On Always"
+			{
+				type =  form
+				form = Customer_Order
+				record event = on add or edit
+
+				on user input of Order_Details.Item_Name
+				{
+					actions 
+					{
+						custom deluge script
+						(
+											if(row.Item_Name != null)
+										{
+											inventoryProducts = Menu_Management[ID = row.Item_Name];
+											row.Price=inventoryProducts.Price;
+										}
+										else
+										{
+											row.Price=0.00;
+										}
+						)
+					}
+				}
+
+			}
+			Run_Scripts_On_Always as "Run Scripts - On Always"
+			{
+				type =  form
+				form = Customer_Order
+				record event = on add or edit
+
+				field rules
+				{
+					actions 
+					{
+						disable Order_ID,Order_Date,Total_Cost;
+					}
+				}
+
+			}
+			Run_Scripts_On_Always1 as "Run Scripts - On Always"
+			{
+				type =  form
+				form = Customer_Order
+				record event = on add or edit
+
+				on load
+				{
+					actions 
+					{
+						custom deluge script
+						(
+											disable Order_Details.Subtotal;
+										disable Order_Details.S_No;
+										input.Order_Date = zoho.currentdate;
+						)
+					}
+				}
+
+			}
+			Run_Scripts_On_Always2 as "Run Scripts - On Always"
+			{
+				type =  form
+				form = Customer_Order
+				record event = on add or edit
+
+				on user input of Order_Details.Quantity
+				{
+					actions 
+					{
+						custom deluge script
+						(
+											if(row.Price != null && row.Quantity != null)
+										{
+											if(row.Quantity <= 0)
+											{
+												row.Quantity=1;
+											}
+											row.Subtotal=row.Quantity * row.Price;
+											tempCost = 0;
+											for each  eachrow in Order_Details
+											{
+												eachRowTotal = ifnull(eachrow.Subtotal,0.0);
+												tempCost = eachRowTotal + tempCost;
+											}
+											input.Total_Cost = tempCost;
+										}
+										else
+										{
+											row.Subtotal=null;
+										}
+						)
+					}
+				}
+
+			}
+			Run_Scripts_On_Always4 as "Run Scripts - On Always"
+			{
+				type =  form
+				form = Customer_Order
+				record event = on add or edit
+
+				on add row of Order_Details
+				{
+					actions 
+					{
+						custom deluge script
+						(
+											//  increasing the Sl.No
+										count_var = 0;
+										for each  item in Order_Details
+										{
+											count_var = count_var + 1;
+										}
+										row.S_No=count_var;
+						)
+					}
+				}
+
+			}
+			Run_Scripts_On_Always5 as "Run Scripts - On Always"
+			{
+				type =  form
+				form = Customer_Order
+				record event = on add or edit
+
+				on delete row of Order_Details
+				{
+					actions 
+					{
+						custom deluge script
+						(
+											//  decreasing sl_no
+										for each  item in Order_Details
+										{
+											if(item.S_No > row.S_No)
+											{
+												item.S_No=item.S_No - 1;
+											}
+										}
+										// reducing the curent row cost from total cost
+										rowTotal = ifnull(row.Subtotal,0.0);
+										input.Total_Cost = input.Total_Cost - rowTotal;
+						)
+					}
+				}
+
+			}
+			Run_Scripts_While_Adding_ as "Run Scripts - While Adding a Record"
+			{
+				type =  form
+				form = Customer_Order
+				record event = on add
+
+				field rules
+				{
+					actions 
+					{
+						hide Order_ID,Available_Quantity;
+						disable Total_Cost;
+					}
+				}
+
+			}
+			Run_Scripts_While_Adding_1 as "Run Scripts - While Adding a Record"
+			{
+				type =  form
+				form = Customer_Order
+				record event = on add
+
+				on validate
+				{
+					actions 
+					{
+						custom deluge script
+						(
+											// setting Unique Order ID for each order
+										lastOrder = (Customer_Order[ID != 0].Order_ID sort by Added_Time desc).getAll();
+										if(lastOrder.size() == 0)
+										{
+											input.Order_ID = "0001";
+										}
+										else
+										{
+											val = (lastOrder.get(0).toLong() + 1).toString();
+											str = leftpad(val,4).replaceAll(" ","0");
+											input.Order_ID = str;
+										}
+						)
+					}
+				}
+
+			}
+			Run_Scripts_While_Adding_2 as "Run Scripts - While Adding a Record"
+			{
+				type =  form
+				form = Customer_Order
+				record event = on add
+
+				on success
+				{
+					actions 
+					{
+						sendmail
+						(
+							from : "zoho.adminuserid"
+							to : Email
+							subject : "subject :Your CraveWave Order is confirmed."
+							message : "<div>&nbsp;<span style=\"font-family:Poppins, sans-serif\" class=\"font\">Dear ${Name},</span><br></div><div><br></div><div><span style=\"font-family:Poppins, sans-serif\" class=\"font\">We are pleased to inform your Order Has Been Confirmed. Note your Order ID : ${Order_ID} for tracking your order. </span><br></div><div><br></div><div><span style=\"font-family:Poppins, sans-serif\" class=\"font\">\"Thank you for your order. We have attached your invoice.</span><br></div><div><span style=\"font-family:Poppins, sans-serif\" class=\"font\">Please find your invoice attached.\"</span><br></div><div><br></div><div><span style=\"font-family:Poppins, sans-serif\" class=\"font\">Thankyou for Order!</span><br></div><div><span style=\"font-family:Poppins, sans-serif\" class=\"font\">CraveWave</span><br></div><div><span style=\"font-family:Poppins, sans-serif\" class=\"font\"><br></span></div><div><br></div>"
+							attachments : template : _default1 as pdf
+						)
+					}
+				}
+
+			}
+			Run_Scripts_While_Editing as "Run Scripts - While Editing a Record"
+			{
+				type =  form
+				form = Customer_Order
+				record event = on edit
+
+				field rules
+				{
+					actions 
+					{
+						disable Status;
+					}
+				}
+
+			}
+			Run_Scripts_While_Editing1 as "Run Scripts - While Editing a Record"
+			{
+				type =  form
+				form = Customer_Order
+				record event = on edit
+
+				on update of Status
+				{
+					actions 
+					{
+						custom deluge script
+						(
+											if(input.Status == "Ready for Delivery")
+										{
+											sendmail
+											[
+												from :zoho.adminuserid
+												to :input.Email
+												subject :"Your " + zoho.appname + " Order ('" + input.Order_ID + "') is Out for Delivery\n"
+												message :"<div>Hi " + input.Name + ", </div><div><br></div>your order : " + input.Order_ID + " is ready for delivery. You will recieve your order soon </div><div> regards,</div><div>" + zoho.adminuser + "</div>"
+											]
+										}
+										else if(input.Status == "Delivered")
+										{
+											sendmail
+											[
+												from :zoho.adminuserid
+												to :input.Email
+												subject :"Your " + zoho.appname + " Order ('" + input.Order_ID + "') is Delivered to you\n"
+												message :"<div>Hi " + input.Name + ", </div><div><br></div>your order :" + input.Order_ID + " is delivered to the shipping address. Thanks for your order </div><div> regards,</div><div>" + zoho.adminuser + "</div>"
+											]
+										}
+						)
+					}
+				}
+
+			}
+			Disable as "Disable"
+			{
+				type =  form
+				form = Customer_Order
+				record event = on add
+
+				field rules
+				{
+					actions 
+					{
+						hide Status;
+					}
+				}
+
+			}
+			Run_Scripts_On_Always3 as "Run Scripts - On Always"
+			{
+				type =  form
+				form = Customer_Order
+				record event = on add or edit
+
+				on user input of Order_Details.Subtotal
+				{
+					actions 
+					{
+						custom deluge script
+						(
+											if(row.Price != null && row.Quantity != null)
+										{
+											if(row.Quantity <= 0)
+											{
+												row.Quantity=1;
+											}
+											row.Subtotal=row.Quantity * row.Price;
+											tempCost = 0.0;
+											for each  eachrow in Order_Details
+											{
+												eachRowTotal = ifnull(eachrow.Subtotal,0.0);
+												tempCost = eachRowTotal + tempCost;
+											}
+											input.Total_Cost = tempCost;
+										}
+										else
+										{
+											row.Subtotal=null;
+											if(row.Price == null)
+											{
+												alert "Please enter  price";
+											}
+											else
+											{
+												alert "Please enter quantity";
+											}
+										}
+						)
+					}
+				}
+
+			}
+			Run_Scripts_On_Always7 as "Run Scripts - On Always"
+			{
+				type =  form
+				form = Customer_Order
+				record event = on add or edit
+
+				on user input of Total_Cost
+				{
+					actions 
+					{
+						custom deluge script
+						(
+											if(Order_Details.Price != null && Order_Details.Quantity != null)
+										{
+											if(Order_Details.Quantity <= 0)
+											{
+												Quantity = 1;
+											}
+											Subtotal = Quantity * input.Order_Details.Price;
+											tempCost = 0.0;
+											for each  eachrow in Order_Details
+											{
+												eachRowTotal = ifnull(eachrow.Subtotal,0.0);
+												tempCost = eachRowTotal + tempCost;
+											}
+											input.Total_Cost = tempCost;
+										}
+										else
+										{
+											Subtotal = null;
+											if(Order_Details.Quantity == null)
+											{
+												alert "Please enter  price";
+											}
+											else
+											{
+												alert "Please enter quantity";
+											}
+										}
+						)
+					}
+				}
+
+			}
+			Run_Scripts_On_Always8 as "Run Scripts - On Always"
+			{
+				type =  form
+				form = Sales_Tracking
+				record event = on add or edit
+
+				on user input of Item_Name
+				{
+					actions 
+					{
+						custom deluge script
+						(
+											if(Item_Name != null)
+										{
+											inventoryProducts = Sales_Tracking[ID = Item_Name];
+											Price = inventoryProducts.Item_Price;
+										}
+										else
+										{
+											Price = 0.00;
+										}
+						)
+					}
+				}
+
+			}
+		}
+
+
+
+
+
+
+	}
+	share_settings
+	{
+			"Read"
+			{
+				name = "Read"
+				type = Users_Permissions
+				permissions = {Chat:true, Predefined:true, ApiAccess:true, PIIAccess:true, ePHIAccess:true}
+				description = "This profile will have read permission for all components\n"
+			}
+			"Write"
+			{
+				name = "Write"
+				type = Users_Permissions
+				permissions = {Chat:true, Predefined:true, ApiAccess:true, PIIAccess:true, ePHIAccess:true}
+				description = "This profile will have write permission for all components\n"
+			}
+			"Administrator"
+			{
+				name = "Administrator"
+				type = Users_Permissions
+				permissions = {Chat:true, Predefined:true, ApiAccess:true, PIIAccess:true, ePHIAccess:true}
+				description = "This profile will have all the permissions.\n"
+			}
+			"Customer"
+			{
+				name = "Customer"
+				type = Customer_Portal
+				permissions = {Chat:true, Predefined:true, ApiAccess:true, PIIAccess:true, ePHIAccess:true}
+				description = "This is the default profile having only add and view permission.\n"
+			}
+			roles
+			{
+				"CEO"
+				{
+					description = "User belonging to this role can access data of all other users."
+				}
+			}
+	}
+
+	customize
+	{
+		
+		layout = "tab"
+		color = "black"
+		base theme = "professional"
+		new theme = 9
+		icons = true
+		icons style = outline
+		font = "quicksand"
+		color options
+    	{
+        color = "1"
+    	}
+    	icon
+    	{
+        	type = "1"
+        	name = "zc-ab-business-verticals1"
+        	background color = "#cd3b68"
+        	foreground color = "#ffffff"
+    	}
+    	logo
+    	{
+        	preference = "app_icon"
+        	placement = "left"
+    	}
+	}
+
+
+	phone
+	{
+		customize
+		{
+        	layout = slidingpane
+		 	icons style = outline
+        	font = "default"
+            style = "1"
+        	color options
+        	{
+             	color = darkgrey
+         	}
+         	logo
+         	{
+             	preference = "none"
+         	}
+		}
+	}
+	tablet
+	{
+		customize
+		{
+        	layout = slidingpane
+		 	icons style = outline
+        	font = "default"
+            style = "1"
+        	color options
+        	{
+             	color = darkgrey
+         	}
+         	logo
+         	{
+             	preference = "none"
+         	}
+		}
+	}
+	translation
+{
+{"Language_Settings":{"LANGAGUE_WITH_LOGIN":"browser"}}
+}
+	reports configuration
+	{
+	
+		Version = 2000030235247
+		Key     = "xBGOqjSePUNV7sbKbbYnuNPYj2CbqV8q635emsRhK5tJx6VSp0PwwG6UdrAyZ7y86YSvausqj59r5ECraYt06SEzJfd5sZ1rRhzX"
+	}
+}
